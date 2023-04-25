@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./img/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Courgette&family=Lora&family=Philosopher&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.production.css">
+  <title>Contact Gabriela Cuencas</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <img src="img/gc-web-design_logo.svg" class="page-header__logo" width="130" height="70" alt="Personal logo of Gabriela Cuencas, a text logo that consists of my name intials">
+    <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+                <a href="index.html" role="menuitem"
+                    class="navigation-list__item navigation-list__item">Home</a>
+            </li>
+            <li role="presentation">
+                <a href="about.html" target="_self" role="menuitem" class="navigation-list__item">About me</a>
+            </li>
+            <li role="presentation">
+                <a href="work.html" target="_self" role="menuitem" class="navigation-list__item">Work</a>
+            </li>
+            <li role="presentation">
+                <a href="contact.html" target="_self" role="menuitem" class="navigation-list__item--active">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div>
+  <h1 class="contact-heading">Contact</h1>
+</div>
+
+<div>
+  <form action="" method="post" id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="form-name" name="name"><br>
+
+      <label class="standard-label" for="contact-email">Email: </label>
+      <input type="email" id="contact-email" required><br>
+
+      <label class="standard-label" for="contact-message">Message: </label>
+      <textarea id="contact-message" required maxlength="240"></textarea><br>
+
+      <input class="form-submit" type="submit" value="Submit">
+  </form>
+</div>
+
+<footer class="page-footer">
+  <p>Let's connect!</p>
+  <div class="social-media">
+      <a href="https://www.linkedin.com/in/gabriela-cuencas-b-9774912b" target="_blank"><img src="./img/linkedin_icon.svg"
+              alt="linkedIn icon"></a>
+      <a href="https://github.com/GabCB" target="_blank"><img src="./img/github_icon.svg" alt="github icon"></a>
+      <a href="mailto:gabriela.cuencas@outlook.com"><img src="./img/email_icon.svg" alt="email icon"></a>
+      
+  </div>
+</footer>
+
+<script src="js/tota11y.min.js"></script>
+  
+</body>
+</html>
