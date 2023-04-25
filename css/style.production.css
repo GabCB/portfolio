@@ -84,6 +84,9 @@ body {
   border-radius: 25px;
   max-width: 800px;
   margin: auto;
+  border: 3px solid rgba(207, 190, 171, 0.3);
+  -webkit-box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 .profile__portrait {
@@ -118,7 +121,7 @@ body {
   padding: 5px 20px 35px 20px;
   border-radius: 25px;
   margin: auto;
-  border: 3px solid rgba(0, 0, 0, 0.3);
+  border: 3px solid rgba(207, 190, 171, 0.3);
   -webkit-box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.3);
 }
@@ -246,40 +249,43 @@ button {
        -o-transition-duration: 0.2s;
           transition-duration: 0.2s;
   padding: 8px 25px;
+  margin: auto;
+  -webkit-box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 button:hover {
-  border: 1.5px solid #6563FF;
+  border: 2px solid #6563FF;
   cursor: pointer;
   color: #6563FF;
 }
 
 button:focus {
-  border: 1.5px solid #6563FF;
+  border: 2px solid #6563FF;
   cursor: pointer;
   color: #6563FF;
 }
 
 .button1:hover {
-  border: 1.5px solid #6563FF;
+  border: 2px solid #6563FF;
   cursor: pointer;
   color: #6563FF;
 }
 
 .button1:focus {
-  border: 1.5px solid #6563FF;
+  border: 2px solid #6563FF;
   cursor: pointer;
   color: #6563FF;
 }
 
 .form-submit:hover {
-  border: 1.5px solid #6563FF;
+  border: 2px solid #6563FF;
   cursor: pointer;
   color: #6563FF;
 }
 
 .form-submit:focus {
-  border: 1.5px solid #6563FF;
+  border: 2px solid #6563FF;
   cursor: pointer;
   color: #6563FF;
 }
@@ -313,6 +319,10 @@ button:focus {
   padding-top: 18px;
   padding-bottom: 20px;
   margin-bottom: 15px;
+  border: 3px solid rgba(207, 190, 171, 0.3);
+  -webkit-box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.3);
+  
 }
 
 #form-name {
@@ -331,8 +341,10 @@ button:focus {
           justify-content: center;
   margin: auto;
   background-color: transparent;
+  border: 1.5px solid black;
+  border-radius: 8px;
   padding: 10px 40px;
-  border: 3px solid rgba(0, 0, 0, 0.3);
+  /*border: 3px solid rgba(0, 0, 0, 0.3);*/
   -webkit-box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
   border-radius: 40px;
@@ -355,8 +367,9 @@ button:focus {
           justify-content: center;
   margin: auto;
   background-color: transparent;
+  border: 1.5px solid black;
+  border-radius: 8px;
   padding: 10px 40px;
-  border: 3px solid rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
   border-radius: 40px;
@@ -380,7 +393,8 @@ button:focus {
   margin: auto;
   background-color: transparent;
   padding: 10px 40px;
-  border: 3px solid rgba(0, 0, 0, 0.3);
+  border: 1.5px solid black;
+  border-radius: 8px;
   -webkit-box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
   border-radius: 40px;
@@ -393,21 +407,21 @@ button:focus {
 }
 
 #form-name:focus {
-  border: 3px solid #6563FF;
+  border: 2px solid #6563FF;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 #contact-email:focus {
-  border: 3px solid #6563FF;
+  border: 2px solid #6563FF;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 #contact-message:focus {
-  border: 3px solid #6563FF;
+  border: 2px solid #6563FF;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
