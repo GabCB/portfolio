@@ -301,6 +301,35 @@ button:focus {
   text-decoration: none;
 }
 
+.project-buttons {
+  display: flex;
+  justify-self: end;
+  margin-top: 5px;
+}
+
+.project-buttons:hover{
+    cursor: pointer;
+    color: #6563FF;
+}
+
+@media(max-width:768px){
+  .project_description{
+    height: 50%;
+  }
+  .project-buttons{
+    font-size: 3vmin;
+  }
+}
+.project-buttons a{
+  /*background-color: #e9cdea;*/
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: var(--deep-blue);
+  font-weight: bold;
+  display: inline-block;
+  margin: 5px;
+}
+
 .project_img {
   max-width: 100%;
   max-height: 90%;
